@@ -1,0 +1,4 @@
+testcases\BaseClass.class
+pages\LoginPage.class
+testcases\LoginTestMaven.class
+testcases\HomeTest.class
