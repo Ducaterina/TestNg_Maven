@@ -36,6 +36,7 @@ public class LoginPage {
 	@FindBy (className = "rememberMe")
 	WebElement RememberMe;
 	
+	//create a constructor having the same as your class with initElements method
 	public LoginPage() {
 		
 		PageFactory.initElements(driver, this);
@@ -64,7 +65,7 @@ public class LoginPage {
 		test.log(LogStatus.PASS, "Enter Password", "Password entered successfully");
 		
 		RememberMe.click();	
-		test.log(LogStatus.PASS, "Click on RememberMe", "clicked successfully");
+		test.log(LogStatus.PASS, "Click on RememberMe", "Clicked on Remember Me successfully");
 		
 		LoginBtn.click();
 		test.log(LogStatus.PASS, "Click on Login button", "Login button clicked successfully");

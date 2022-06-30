@@ -1,4 +1,7 @@
 testcases\BaseClass.class
+testcases\DataProviderExample.class
 pages\LoginPage.class
 testcases\LoginTestMaven.class
 testcases\HomeTest.class
+testcases\TestNgListenerClass.class
+grid\GridExample.class
