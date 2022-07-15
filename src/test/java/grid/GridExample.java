@@ -15,8 +15,8 @@ public class GridExample {
 			// TODO Auto-generated method stub
 
 			DesiredCapabilities cap = new DesiredCapabilities();
-			cap.setPlatform(Platform.WINDOWS);
-			cap.setBrowserName("chrome");
+			cap.setPlatform(Platform.WINDOWS);			//this is where we specify the platform
+			cap.setBrowserName("chrome");				//this is where we specify the browser
 			URL url = new URL("http://localhost:4444/wd/hub");	
 			WebDriver driver = new RemoteWebDriver(url, cap);
 			

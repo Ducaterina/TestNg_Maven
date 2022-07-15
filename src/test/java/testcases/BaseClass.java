@@ -61,7 +61,7 @@ public static WebDriver driver;
 		
 		test = report.startTest(method.getName());
 		
-	System.setProperty("webdriver.chrome.driver", "chromedriver101.04951.41.exe");
+	System.setProperty("webdriver.chrome.driver", "chromedriver103.0.5060.53.exe");
 //		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 	driver = new ChromeDriver();
